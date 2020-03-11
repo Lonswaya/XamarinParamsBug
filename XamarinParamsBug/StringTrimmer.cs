@@ -26,7 +26,7 @@ namespace XamarinParamsBug
 
         public string TrimStringWorkaround(string toTrim)
         {
-            return toTrim.Trim(new char[charToTrim]);
+            return toTrim.Trim(new char[] { charToTrim });
         }
 
         public static string TrimSpaces(string toTrim)
