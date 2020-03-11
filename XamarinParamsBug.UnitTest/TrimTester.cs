@@ -14,7 +14,7 @@ namespace XamarinParamsBug.UnitTest
             Assert.AreEqual("foo", new StringTrimmer('-').TrimString("---foo---"));
         }
 
-        // Fails: Assert.AreEqual failed. Expected:<foo>. Actual:<---foo--->. 
+        // Passes 
         [TestMethod]
         public void TestTrimWorkaround()
         {
